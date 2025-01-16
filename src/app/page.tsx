@@ -11,7 +11,7 @@ const perks = [
       "Get your assets delivered to your email in seconds and download them right away.",
   },
   {
-    name: "Guaranteed Qulity",
+    name: "Guaranteed Quality",
     Icon: CheckCircle,
     description:
       "Every asset on our platform is verified by our team to ensure our highest quality standards. ",
@@ -66,7 +66,9 @@ export default function Home() {
                   <h3 className="text-base font-medium text-gray-900">
                     {perk.name}
                   </h3>
-                  <p className="mt-3 text-sm text-muted-foreground">{perk.description}</p>
+                  <p className="mt-3 text-sm text-muted-foreground">
+                    {perk.description}
+                  </p>
                 </div>
               </div>
             ))}
